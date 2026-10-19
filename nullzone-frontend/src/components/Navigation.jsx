@@ -12,8 +12,7 @@ const Navigation = () => {
             <div className="nullLogo">
                 <img  src={nullzoneLogo} alt="Nullzone Logo" />
             </div>
-            <a href="discord.com" target="_blank" rel="noopener noreferrer"><img src={discordLogo} alt="Discord Logo" /></a>
-            
+            <img src={discordLogo} alt="Discord Logo" />
             <img src={patreonLogo} alt="Patreon Logo" />
             <img src={itchLogo} alt="Itch.io Logo" />
         </div>
