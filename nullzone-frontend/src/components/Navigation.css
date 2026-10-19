@@ -1,0 +1,78 @@
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #EDBE8C;
+  z-index: 10;
+}
+
+.header-container::after {
+  content: '';
+  position: absolute;
+  top: 80px;     
+  left: 32%;     
+  width: 36%;    
+  height: 40px;  
+  background-color: #EDBE8C;
+  /* Creates the downward trapezoid shape */
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 12% 100%);
+  z-index: 5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  height: 80px;                 
+  padding: 0 2rem;                
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;                 
+  height: 100%;
+}
+
+nav div img {
+  height: 65%;                 
+  width: auto;               
+  object-fit: contain;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+nav div img:hover {
+  opacity: 0.8;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;                 
+  margin: 0;
+  padding: 0;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+  color: #7B44C2;               
+}
+
+.nullLogo {
+  background-color: black;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  height: 80%;
+}
