@@ -10,7 +10,7 @@ const Navigation = () => {
       <nav>
         <div>
             <div className="nullLogo">
-                <img  src={nullzoneLogo} alt="Nullzone Logo" />
+                <img className="nullzone-logo" src={nullzoneLogo} alt="Nullzone Logo" />
             </div>
             <img src={discordLogo} alt="Discord Logo" />
             <img src={patreonLogo} alt="Patreon Logo" />
