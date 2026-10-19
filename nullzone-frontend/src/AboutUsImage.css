@@ -1,0 +1,13 @@
+.box {
+    max-width: 500px;
+    background-color: aqua;
+    max-height: 600px;
+}
+
+.nameText {
+    align-items: flex-start;
+}
+
+.infoText {
+    align-items: center;
+}
