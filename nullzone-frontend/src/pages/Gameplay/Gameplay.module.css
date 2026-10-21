@@ -1,6 +1,50 @@
-section{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.gameplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  box-sizing: border-box;
+
+  padding: 36px 0 64px;
+  background-color: #210d35;
+  color: #f5effa;
+}
+
+.heading {
+  margin: 0 0 48px;
+  padding: 0 16px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.gameplayContent {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 650px) {
+  .gameplaySection {
+    padding: 28px 0 44px;
+  }
+
+  .heading {
+    margin-bottom: 32px;
+    font-size: 26px;
+  }
+
+  .gameplayContent {
+    width: 88%;
+    gap: 48px;
+  }
 }
