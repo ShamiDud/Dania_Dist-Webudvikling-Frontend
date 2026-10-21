@@ -4,3 +4,33 @@ section{
     justify-content: center;
     align-items: center;
 }
+
+.SectionHead {
+    color: #ffffffee;
+    display: grid;
+    text-align: center;
+    gap: 8px;
+    padding-bottom: 30px;
+}
+.SectionHead h4 {
+    letter-spacing: 1.5px;
+
+}
+
+.RMSBS {
+    color: #eeee;
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-indent: 25px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.RMPng {
+    width: 100%;
+}
