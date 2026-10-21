@@ -9,6 +9,7 @@ import HeroSection from './pages/HeroSection/HeroSection'
 import Gameplay from './pages/Gameplay/Gameplay'
 import AboutUs from './pages/AboutUs/AboutUs'
 import Roadmap from './pages/Roadmap/Roadmap'
+import Footer from './components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,10 +17,15 @@ function App() {
     <>
       <BrowserRouter>
         <Navigation />
-        <HeroSection />
-        <Gameplay />
-        <AboutUs />
-        <Roadmap />
+        <div className="appSections">
+           <HeroSection />
+            <Gameplay />
+            <AboutUs />
+            <Roadmap />
+        </div>
+        <Footer/>
+       
+          
       </BrowserRouter>
     </>
   )
