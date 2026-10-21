@@ -1,13 +1,21 @@
-import './HeroSection.module.css';
+import styles from './HeroSection.module.css';
+import MediaPlayerHS from '../../components/MediaPlayerHS';
 
 const HeroSection = () => {
   return (
-    <section className="hero-section">
-      <div className="hero-content">
-        <h1>Welcome to Nullzone</h1>
-        <p>Embark on an epic journey in the world of Nullzone. Explore, battle, and conquer!</p>
-        <a href="/gameplay" className="cta-button">Play Now</a>
+    <section id='herosection'className={styles['hero-section']}>
+      <div className={styles['hero-content']}>
+        <h1>Proxima Survival</h1>
       </div>
+      <MediaPlayerHS />
+      <a 
+      href="https://nullzone-studios.itch.io/proxima-survival-3d"
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles['cta-button']}
+      >
+        PLAY NOW
+      </a>
     </section>
   );
 }
