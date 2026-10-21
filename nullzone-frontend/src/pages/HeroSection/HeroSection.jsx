@@ -3,7 +3,7 @@ import MediaPlayerHS from '../../components/MediaPlayerHS';
 
 const HeroSection = () => {
   return (
-    <section id='herosection'className={styles['hero-section']}>
+    <section id='heroSection' className={styles['hero-section']}>
       <div className={styles['hero-content']}>
         <h1>Proxima Survival</h1>
       </div>

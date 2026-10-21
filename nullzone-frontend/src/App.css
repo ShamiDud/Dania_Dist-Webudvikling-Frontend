@@ -2,3 +2,7 @@
     height: auto;
       background-image: linear-gradient(to bottom,#59219F, #200C39);
 }
+
+html {
+  scroll-behavior: smooth;
+}
