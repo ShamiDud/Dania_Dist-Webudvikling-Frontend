@@ -12,15 +12,39 @@ const AboutUs = () => {
                 <p>Phillip Nord Nielsen</p>
               </div>
               <div className={styles.aboutUsImageTextRight}>
-                <p>Founder & CFO</p>
+                <p>Founder & CTO</p>
               </div>
             </div>
             <div className={styles.aboutUsImage}>
               <div className={styles.aboutUsImageTextLeft}>
-                <p>Phillip Nord Nielsen</p>
+                <p>Lasse Handberg Gohlke</p>
               </div>
               <div className={styles.aboutUsImageTextRight}>
-                <p>Founder & CFO</p>
+                <p>Founder, CEO & Lead Game Designer</p>
+              </div>
+            </div>
+            <div className={styles.aboutUsImage}>
+              <div className={styles.aboutUsImageTextLeft}>
+                <p>Christian Olesen</p>
+              </div>
+              <div className={styles.aboutUsImageTextRight}>
+                <p>Founder & COO</p>
+              </div>
+            </div>
+            <div className={styles.aboutUsImage}>
+              <div className={styles.aboutUsImageTextLeft}>
+                <p>Stefanie Grøndal</p>
+              </div>
+              <div className={styles.aboutUsImageTextRight}>
+                <p>Founder & Chief Community Officer</p>
+              </div>
+            </div>
+            <div className={styles.aboutUsImage}>
+              <div className={styles.aboutUsImageTextLeft}>
+                <p>Silas Megård Opstrup</p>
+              </div>
+              <div className={styles.aboutUsImageTextRight}>
+                <p>Founder & Chief Creative Officer</p>
               </div>
             </div>
           </div>
