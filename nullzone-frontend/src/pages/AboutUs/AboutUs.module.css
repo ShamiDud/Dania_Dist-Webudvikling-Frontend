@@ -1,6 +1,59 @@
-section{
-    height: 100vh;
+.aboutUsContent h1, .aboutUsContent p{
+    text-align: center;
+    position: relative;
+    padding-top:0%;
+    color: white;
+    z-index: 10;
+}
+
+.aboutUsContent{
+    min-height: 600px;
+    width: 100%;
+    margin: 1%;
+    padding: 0%;
+    position: relative;
+}
+
+.aboutUsImages{
+    max-width: 100%;
+    min-width: 200px;
+    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.aboutUsImage{
+    max-width: 180px;
+    min-width: 180px;
+    max-height: 200px;
+    min-height: 200px;
+    background-color:blueviolet;
+    margin: 2.5%;
+    display: flex;
+    position: relative;
+}
+
+.aboutUsImageTextLeft{
+    width: 50%;
+    height: 100%;
+}
+
+.aboutUsImageTextLeft p{
+    text-align: left;
+    padding-top: 160%;
+    padding-bottom: 0%;
+    padding-left: 5%;
+}
+
+.aboutUsImageTextRight{
+    width: 50%;
+    height: 100%;
+}
+
+.aboutUsImageTextRight p{
+    text-align: Right;
+    padding-top: 160%;
+    padding-bottom: 0%;
+    padding-right: 5%;
 }
