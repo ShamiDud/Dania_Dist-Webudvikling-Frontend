@@ -5,7 +5,7 @@ const SecHead = ({TITLE, TAGLINE}) => {
         <>
             <header className={style.SectionHead}>        
                 <h1>{TITLE}</h1>
-                <p>{TAGLINE}</p>
+                <h4>{TAGLINE}</h4>
             </header>
         </>
     );
