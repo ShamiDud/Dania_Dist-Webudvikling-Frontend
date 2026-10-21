@@ -17,14 +17,14 @@ const Gameplay = () => {
           image={gameplayImage}
           alt="Gameplay screenshot"
           text={`Lorem Ipsum is simply dummy
-text of the printing and
-typesetting industry. Lorem
-Ipsum has been the
-industry's standard dummy
-text ever since 1966, when
-designers at Letraset and
-James Mosley, the librarian
-at St Bride Printing`}
+                text of the printing and
+                typesetting industry. Lorem
+                Ipsum has been the
+                industry's standard dummy
+                text ever since 1966, when
+                designers at Letraset and
+                James Mosley, the librarian
+                at St Bride Printing`}
         />
 
         <GameplayRow
