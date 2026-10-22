@@ -1,4 +1,9 @@
 import styles from './AboutUs.module.css';
+import lasseImage from '../../assets/callingCardLasse.jpg'
+import phillipImage from '../../assets/callingCardPhillip.jpg'
+import silasImage from '../../assets/callingCardSilas.png'
+import christianImage from '../../assets/callingCardChristian.jpg'
+import stefanieImage from '../../assets/callingCardStefanie.jpg'
 
 const AboutUs = () => {
   return (
@@ -8,6 +13,7 @@ const AboutUs = () => {
           <p>Discover the people behind Proxima Survival</p>
           <div className={styles.aboutUsImages}>
             <div className={styles.aboutUsImage}>
+              <img className={styles.ccImage} src={phillipImage} alt="Phillip from Nullzone"/>
               <div className={styles.aboutUsImageTextLeft}>
                 <p>Phillip Nord Nielsen</p>
               </div>
@@ -16,6 +22,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className={styles.aboutUsImage}>
+              <img className={styles.ccImage} src={lasseImage} alt="Lasse from Nullzone"/>
               <div className={styles.aboutUsImageTextLeft}>
                 <p>Lasse Handberg Gohlke</p>
               </div>
@@ -24,6 +31,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className={styles.aboutUsImage}>
+              <img className={styles.ccImage} src={christianImage} alt="Christian from Nullzone"/>
               <div className={styles.aboutUsImageTextLeft}>
                 <p>Christian Olesen</p>
               </div>
@@ -32,6 +40,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className={styles.aboutUsImage}>
+              <img className={styles.ccImage} src={stefanieImage} alt="Stefanie from Nullzone"/>
               <div className={styles.aboutUsImageTextLeft}>
                 <p>Stefanie Grøndal</p>
               </div>
@@ -40,6 +49,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className={styles.aboutUsImage}>
+              <img className={styles.ccImage} src={silasImage} alt="Phillip from Nullzone"/>
               <div className={styles.aboutUsImageTextLeft}>
                 <p>Silas Megård Opstrup</p>
               </div>
