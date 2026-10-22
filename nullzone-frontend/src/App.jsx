@@ -7,6 +7,7 @@ import Gameplay from './pages/Gameplay/Gameplay'
 import AboutUs from './pages/AboutUs/AboutUs'
 import Roadmap from './pages/Roadmap/Roadmap'
 import Footer from './components/Footer'
+import Seperator from './components/Seperator'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,8 +17,11 @@ function App() {
         <Navigation />
         <div className="appSections">
            <HeroSection />
+           <Seperator/>
             <Gameplay />
+            <Seperator/>
             <AboutUs />
+            <Seperator/>
             <Roadmap />
         </div>
         <Footer/>

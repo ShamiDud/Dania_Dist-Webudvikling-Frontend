@@ -1,7 +1,7 @@
 .media-player-container {
     display: flex;
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     gap: 16px;
     background-color: #1b2838;
