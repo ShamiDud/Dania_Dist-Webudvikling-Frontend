@@ -38,8 +38,8 @@ const Navigation = () => {
 
         <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           <li><a href="#heroSection" onClick={closeMenu}>Home</a></li>
-          <li><a href="#roadmap" onClick={closeMenu}>Roadmap</a></li>
           <li><a href="#gameplay" onClick={closeMenu}>Gameplay</a></li>
+          <li><a href="#roadmap" onClick={closeMenu}>Roadmap</a></li>
           <li><a href="#aboutUs" onClick={closeMenu}>About Us</a></li>
         </ul>
       </nav>

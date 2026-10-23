@@ -20,9 +20,9 @@ function App() {
            <Seperator/>
             <Gameplay />
             <Seperator/>
-            <AboutUs />
-            <Seperator/>
             <Roadmap />
+            <Seperator/>
+            <AboutUs />
         </div>
         <Footer/>
        
